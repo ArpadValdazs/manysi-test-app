@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+
+}
+.menu {
+    /*margin: 50px;*/
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+    margin: 1px;
+}
+ul li a {
+    background-color: lemonchiffon;
+    padding: 5px;
+    transition: .2s ease-in-out;
+}
+
+ul li a:hover {
+    background-color: azure;
+    transition: .2s ease-in-out;
+}
+
+.mainBlock {
+    border: 1px black solid;
+    margin: 5px;
+    min-height: 200px;
+    padding:5px;
+}
+.buttonsBlock {
+
+    background: white;
+    /*width: content-box;*/
+    /*position: absolute;*/
+}
+.editableBlock {
+    margin:5px;
+}
+.upperBlock {
+    right: 0;
+    left:0;
+    background: white;
+    /*position: fixed;*/
+   /*position: relative;*/
+}
+.button {
+    display: inline-block;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+
+}

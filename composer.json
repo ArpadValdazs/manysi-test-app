@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {
+      "manysi-app\\": "vendor/manysi-app/core",
+      "app\\": "app"
+    }
+  },
+  "require": {
+    "components/jquery": "^3.5.1"
+  }
+}
